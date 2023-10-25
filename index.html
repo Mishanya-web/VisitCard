@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<style>
+			body {
+				background-image: url("assets/body-images/background.png");
+				background-size: cover;
+			}
+
+			@font-face {
+				font-family: press-start;
+				src: url('assets/fonts/press-start-k.ttf');
+				font-weight:400;
+				font-weight:normal;
+			}
+		</style>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser-arcade-physics.min.js"></script>
+        <script src="game_shooter.js"></script>
+    </head>
+    <body>
+        <div style="font-family:press-start; position:absolute; left:-1000px; visibility:hidden;"></div>
+        <div class="gameButtons">
+
+            <button class="A" onclick="clickA()">
+                <img src="assets/body-images/Abutton.png">
+            </button>
+
+            <button class="B" onclick="clickB()">
+                <img src="assets/body-images/Bbutton.png">
+            </button>
+
+            <button class="X" onclick="clickX()">
+                <img src="assets/body-images/Xbutton.png">
+            </button>
+
+            <button class="Y" onclick="clickY()">
+                <img src="assets/body-images/Ybutton.png">
+            </button>
+
+        </div>
+    </body>
+</html>

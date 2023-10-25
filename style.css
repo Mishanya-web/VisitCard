@@ -1,0 +1,57 @@
+.gameButtons {
+    position: absolute;
+    top: 535px;
+    left: 950px;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 480px;
+    background-color: #000;
+}
+
+.A {
+	background-color: #00EF87;
+	position: absolute;
+	padding: 0px 0px;
+	border-radius: 50%;
+	border:none;
+	left: 0px;
+	top: 30px;
+
+}
+
+.B {
+	background-color: #00EF87;
+	position: absolute;
+	padding: 0px 0px;
+	border-radius: 50%;
+	border:none;
+	left: 35px;
+	top: 0px;
+}
+
+.X {
+	background-color: #00EF87;
+	position: absolute;
+	padding: 0px 0px;
+	border-radius: 50%;
+	border:none;
+	left: 41px;
+	top: 55px;
+}
+
+.Y {
+	background-color: #00EF87;
+	position: absolute;
+	padding: 0px 0px;
+	border-radius: 50%;
+	border:none;
+	left: 78px;
+	top: 30px;
+}
